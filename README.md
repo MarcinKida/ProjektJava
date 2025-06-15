@@ -12,6 +12,18 @@ CREATE TABLE `uzytkownicy` (
   DEFAULT CHARSET=utf8mb4
   COLLATE=utf8mb4_unicode_ci;
 
+-- Wstawienie użytkownika admin
+INSERT INTO `uzytkownicy` (`login`, `imie`, `nazwisko`, `nr_tel`, `email`, `haslo`, `czy_admin`)
+VALUES (
+  'admin',
+  'admin',
+  'admin',
+  '123456789',
+  'admin@pl',
+  'admin1',
+  TRUE
+);
+
 -- Tabela produkty
 CREATE TABLE `produkty` (
   `id`              INT AUTO_INCREMENT PRIMARY KEY,
@@ -71,8 +83,3 @@ INSERT INTO transakcje (data, kwota) VALUES
 ('2025-03-01', ROUND(RAND() * 15000 + 5000, 2)), 
 ('2025-04-01', ROUND(RAND() * 15000 + 5000, 2)), 
 ('2025-05-01', ROUND(RAND() * 15000 + 5000, 2));
-
--- Ustawienie użytkownika "admin" jako administratora
-UPDATE uzytkownicy
-SET czy_admin = 1
-WHERE login = 'admin';
