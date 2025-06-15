@@ -1,0 +1,77 @@
+\chapter{Podsumowanie}
+\label{chap:Podsumowanie}
+
+\section{Zrealizowane elementy}
+\label{sec:Zrealizowane elementy}
+W projekcie zaimplementowano następujące funkcjonalności:
+
+\subsection{System logowania i rejestracji}
+\label{subsec:System logowania i rejestracji}
+\begin{itemize}
+\item Walidacja danych (login, hasło, e-mail, numer telefonu)
+\item Podział na zwykłych użytkowników i administratorów
+\end{itemize}
+
+\subsection{Panel użytkownika}
+\label{subsec:Panel użytkownika}
+\begin{itemize}
+\item Przegląd zarezerwowanych produktów
+\item Rezerwacja miejsca w magazynie (wybór typu produktu, ilości, dat przyjęcia i odbioru)
+\item Wyświetlanie zaległych płatności (kary za przekroczenie terminu)
+\item Cennik usług magazynowych
+\item Możliwość zmiany danych konta (login, hasło, numer telefonu)
+\end{itemize}
+
+\subsection{Panel administratora}
+\label{subsec:Panel administratora}
+\begin{itemize}
+\item Zarządzanie użytkownikami (lista wszystkich kont)
+\item Nadawanie uprawnień administratora
+\item Przegląd zaległych zamówień (kary za opóźnienia)
+\item Raporty przychodów magazynu (ostatnie 12 miesięcy)
+\end{itemize}
+
+\subsection{Baza danych}
+\label{subsec:Baza danych}
+\begin{itemize}
+\item Przechowywanie danych użytkowników (\texttt{uzytkownicy})
+\item Zarządzanie produktami (\texttt{produkty})
+\item Śledzenie kar (\texttt{kary})
+\item Rejestr przychodów (\texttt{transakcje})
+\end{itemize}
+
+\subsection{Interfejs graficzny (GUI)}
+\label{subsec:Interfejs graficzny (GUI)}
+\begin{itemize}
+\item Spójny wygląd wszystkich okien (\texttt{OknoBazowe})
+\item Responsywne przyciski (\texttt{WygladPrzyciskow})
+\item Komunikaty błędów i potwierdzeń (\texttt{JOptionPane})
+\end{itemize}
+
+\section{Mozliwe prace rozwojowe}
+\label{sec:Mozliwe prace rozwojowe}
+Projekt można rozbudować o następujące funkcje:
+
+\subsection{Bezpieczeństwo}
+\label{subsec:Bezpieczeństwo}
+\begin{itemize}
+\item Hashowanie haseł (np. BCrypt) zamiast przechowywania ich w postaci jawnej
+\item Weryfikacja dwuetapowa (np. SMS/e-mail)
+\item Odzyskiwanie konta (zapomniałem hasła)
+\end{itemize}
+
+\subsection{Rozszerzenie funkcjonalności magazynu}
+\label{subsec:Rozszerzenie funkcjonalności magazynu}
+\begin{itemize}
+\item Automatyczne naliczanie opłat (np. comiesięczne rozliczenia)
+\item System powiadomień (e-mail/SMS o zbliżającym się terminie odbioru)
+\item Generowanie faktur PDF po opłaceniu rezerwacji
+\end{itemize}
+
+\subsection{Dodatkowe moduły}
+\label{subsec:Dodatkowe moduły}
+\begin{itemize}
+\item Panel dostawców – zarządzanie dostawami towarów
+\item Historia transakcji – szczegółowe zestawienia płatności
+\item Integracja z systemem płatności online (np. Przelewy24, PayPal)
+\end{itemize}

@@ -1,0 +1,56 @@
+\chapter{Założenia projektu}
+\label{chap:Założenia projektu}
+
+Celem projektu jest stworzenie aplikacji, która umożliwia efektywne oraz komfortowe zarządzanie magazynem, produktami, użytkownikami oraz płatnościami. Ponadto zapewnia bardzo łatwy dostęp do informacji zarówno dla administratora, jak i klienta.
+
+Problem, jaki rozwiązałby ten program, to przede wszystkim używanie nieefektywnych metod do zarządzania magazynem oraz brak łatwego dostępu do bieżących informacji dla klientów i administratorów.
+
+Nieefektywne metody zarządzania magazynem takie jak ręczne zliczanie sztuk, rezerwowanie miejsca czy ręczne prowadzenie dokumentacji może powodować błędy w zarządzaniu produktami, płatnościami oraz miejscem w magazynie, co skutkuje tym, że zarówno klienci jak i administratorzy byliby stanowczo niezadowoleni.
+
+Dogłębna analiza problemu pozwala zrozumieć i naprawić problemy napotykane przez klientów oraz administratorów oraz jakie funkcje byłyby najważniejsze. Powstanie takiego programu umożliwi administratorom wygodne monitorowanie stanu magazynu oraz zaległych płatności, a użytkownikom szybki i wygodny dostęp do informacji.
+
+\section{Wymagania funkcjonalne}
+\label{sec:Wymagania funkcjonalne}
+
+\subsection{Poziom autoryzacji}
+\label{subsec:Poziom autoryzacji}
+System obsługuje możliwość zarówno utworzenia nowego konta, jak i zalogowania się na już istniejące.
+
+\subsection{Rezerwacja miejsca, sprawdzanie cennika, zmienianie danych użytkownika}
+\label{subsec:Rezerwacja miejsca, sprawdzanie cennika, zmienianie danych użytkownika}
+Możliwość zarezerwowania miejsca w magazynie na swój produkt, możliwość zobaczenia cen. Ponadto użytkownik może zmienić swój numer telefonu, login lub hasło.
+
+\subsection{Funkcje administracyjne}
+\label{subsec:Funkcje administracyjne}
+Panel Administratora pozwala na przyznanie praw administratora dla zwykłego użytkownika, możliwość usunięcia zaległych kar oraz możliwość usunięcia z bazy danych produktów, które zarezerwował użytkownik.
+
+\subsection{Logi serwera wszystkich istniejących danych}
+\label{subsec:Logi serwera wszystkich istniejących danych}
+System posiada listy użytkowników, transakcji (miesięczne przychody), kar oraz produktów w bazie danych.
+
+\section{Wymagania niefunkcjonalne}
+\label{sec:Wymagania niefunkcjonalne}
+
+\subsection{Pojemność}
+\label{subsec:Pojemność}
+Pojemność jest zależna od bazy danych.
+
+\subsection{Wydajność}
+\label{subsec:Wydajność}
+Interfejs użytkownika musi być w pełni przystosowany do pracy na komputerach stacjonarnych. System powinien szybko reagować na działania użytkownika, z niskimi czasami ładowania stron i minimalnymi opóźnieniami.
+
+\subsection{Środowisko}
+\label{subsec:Środowisko}
+Aplikacja na pewno będzie działać na systemie Windows 11 oraz będzie kompatybilna z Java 23.
+
+\subsection{Użyteczność}
+\label{subsec:Użyteczność}
+Interfejs powinien być czytelny zarówno dla administratora, jak i użytkownika.
+
+\subsection{Skalowalność}
+\label{subsec:Skalowalność}
+Interfejs jest dostosowany do użytkowników korzystających z komputera stacjonarnego, bądź laptopa.
+
+\subsection{Niezawodność}
+\label{subsec:Niezawodność}
+Aplikacja obsługuje wszelakie błędy i wyświetla je jako komunikat.
