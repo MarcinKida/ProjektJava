@@ -1,0 +1,40 @@
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Streszczenie}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Streszczenie po polsku}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Summary in english language}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Założenia projektu}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Podstawowe możliwości aplikacji}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Jakość i doświadczenie użytkownika}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Opis struktury projektu}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wykorzystane technologie i narzędzia}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Architektura i hierarchia klas}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Baza danych}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Kluczowe zależności oraz charakterystyka architektury}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Wymagania systemowe}{11}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Harmonogram realizacji projektu}{12}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}MenuGlowne}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}OknoRejestracji}{14}{section.5.2}%
+\contentsline {section}{\numberline {5.3}OknoLogowania}{17}{section.5.3}%
+\contentsline {section}{\numberline {5.4}PanelUzytkownika}{18}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Moje produkty}{19}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Zarezerwuj miejsce}{20}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Zaległe kary}{26}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Cennik}{27}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Zmień dane}{28}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Wyloguj}{32}{subsection.5.4.6}%
+\contentsline {section}{\numberline {5.5}PanelAdministratora}{33}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Lista użytkowników}{34}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Nadaj uprawnienia admina}{35}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Przekroczenia czasu}{36}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Przychody magazynu}{37}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Wyloguj}{38}{subsection.5.5.5}%
+\contentsline {chapter}{\numberline {6}Implementacja i przykładowe fragmenty kodu}{39}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Podsumowanie}{40}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Zrealizowane elementy}{40}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Mozliwe prace rozwojowe}{41}{section.7.2}%
+\contentsline {section}{\textbf {Bibliografia}}{42}{section.7.2}%
+\contentsline {section}{\textbf {Spis rysunków}}{43}{chapter*.45}%
+\contentsline {section}{\textbf {Spis tabel}}{45}{chapter*.45}%
+\contentsline {section}{\textbf {Spis listingów}}{46}{chapter*.45}%
+\contentsline {section}{\textbf {Oświadczenie studenta o samodzielności pracy}}{47}{chapter*.47}%

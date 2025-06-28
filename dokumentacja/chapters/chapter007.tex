@@ -1,0 +1,60 @@
+\chapter{Podsumowanie}
+\label{chap:Podsumowanie}
+
+\section{Zrealizowane elementy}
+\label{sec:Zrealizowane elementy}
+W projekcie zaimplementowano następujące funkcjonalności:
+
+
+SYSTEM LOGOWANIA I REJESTRACJI
+\begin{itemize}
+\item Walidacja danych (login, hasło, e-mail, numer telefonu)
+\item Podział na zwykłych użytkowników i administratorów
+\end{itemize}
+
+PANEL UŻYTKOWNIKA
+\begin{itemize}
+\item Przegląd zarezerwowanych produktów
+\item Rezerwacja miejsca w magazynie (wybór typu produktu, ilości, dat przyjęcia i odbioru)
+\item Wyświetlanie zaległych płatności (kary za przekroczenie terminu)
+\item Cennik usług magazynowych
+\item Możliwość zmiany danych konta (login, hasło, numer telefonu)
+\end{itemize}
+
+PANEL ADMINISTRATORA
+\begin{itemize}
+\item Zarządzanie użytkownikami (lista wszystkich kont)
+\item Nadawanie uprawnień administratora
+\item Przegląd zaległych zamówień (kary za opóźnienia)
+\item Raporty przychodów magazynu (ostatnie 12 miesięcy)
+\end{itemize}
+
+BAZA DANYCH
+\begin{itemize}
+\item Przechowywanie danych użytkowników (\texttt{uzytkownicy})
+\item Zarządzanie produktami (\texttt{produkty})
+\item Śledzenie kar (\texttt{kary})
+\item Rejestr przychodów (\texttt{transakcje})
+\end{itemize}
+
+INTERFEJS GRAFICZNY
+\begin{itemize}
+\item Spójny wygląd wszystkich okien (\texttt{OknoBazowe})
+\item Responsywne przyciski (\texttt{WygladPrzyciskow})
+\item Komunikaty błędów i potwierdzeń (\texttt{JOptionPane})
+\end{itemize}
+
+\section{Mozliwe prace rozwojowe}
+\label{sec:Mozliwe prace rozwojowe}
+Projekt można rozbudować o następujące funkcje:
+
+\begin{itemize}
+\item Hashowanie haseł zamiast przechowywania ich w postaci jawnej
+\item Weryfikacja dwuetapowa (np. SMS/e-mail)
+\item Odzyskiwanie konta (zapomniałem hasła)
+\item Automatyczne naliczanie opłat (np. comiesięczne rozliczenia)
+\item System powiadomień (e-mail/SMS o zbliżającym się terminie odbioru)
+\item Generowanie faktur PDF po opłaceniu rezerwacji
+\item Historia transakcji - szczegółowe zestawienia płatności
+\item Integracja z systemem płatności online (np. Przelewy24, PayPal)
+\end{itemize}
